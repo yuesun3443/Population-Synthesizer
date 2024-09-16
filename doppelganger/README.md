@@ -6,40 +6,6 @@ A Python package of tools to support population synthesizers. Population synthes
 
 [![Test status](https://circleci.com/gh/sidewalklabs/doppelganger.svg?style=shield&circle-token=67a4ccc244edfded8a475447457f78c7c0d65fdd)](https://circleci.com/gh/sidewalklabs/doppelganger) [![Coverage Status](https://coveralls.io/repos/github/sidewalklabs/doppelganger/badge.svg?t=7Kr9Vl)](https://coveralls.io/github/sidewalklabs/doppelganger)
 
-## Installing
-
-Doppelganger relies on numpy. You can check if you have numpy on your system by running this from your shell:
-```shell
-pip freeze | grep numpy
-```
-If you see a result like `numpy==[version_number]`, you're good to go.
-
-If you don't already have numpy running on your system, we strongly recommend you use a version of python with numpy pre-built.  We recommend [Anaconda](https://www.continuum.io/downloads) but there are [several options](https://www.scipy.org/install.html).
-
-### Installing for use
-To use simply use the doppelganger package, run
-```shell
-pip install doppelganger
-```
-You should now have doppelganger installed.
-
-### Installing for development
-To develop Doppelganger, once you have numpy set up, clone or download this repository, go to the root directory and run
-```shell
-pip install .[tests]
-```
-You should now have the local doppelganger code & testing tools installed.
-
-From the repo root, run the tests to confirm everything is working:
-```shell
-py.test
-```
-
-
-## Examples
-
-The `example` directory contains a [Jupyter Notebook of examples and demonstrations](https://github.com/sidewalklabs/doppelganger/blob/master/examples/doppelganger_example_full.ipynb) of Doppelganger's features.
-
 ## Features
 
 Doppelganger has the following two key feature categories that we hope will improve population synthesis in practice:  
